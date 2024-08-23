@@ -1,0 +1,62 @@
+{
+  "id": "dragruler-pf2e",
+  "title": "Drag Ruler for PF2e",
+  "description": "A drag ruler integration for PF2e",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Valerionn"
+    }
+  ],
+  "manifest": "TODO",
+  "download": "TODO",
+  "url": "https://github.com/Valerionn/foundry-dragruler-pf2e",
+  "license": "TODO",
+  "readme": "TODO",
+  "bugs": "TODO",
+  "changelog": "TODO",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    }
+  ],
+  "system": [
+    "pf2e"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6",
+          "verified": "6.2.3"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "drag-ruler",
+        "type": "module",
+        "compatibility": {
+          "minimum": "1.14.0",
+          "verified": "1.14.2"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/index.js"
+  ]
+}
