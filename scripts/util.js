@@ -10,7 +10,7 @@ export function getSpeedForToken(token) {
   const conditions = actor.conditions;
 
   const speed = actor.system.attributes.speed;
-  const speedValue = speed?.value ?? 0;
+  const speedValue = speed?.total ?? 0;
   if (conditions.hasType('prone')) {
     // When prone, you can crawl if speed is at least 10
     if (speedValue >= 10) {
